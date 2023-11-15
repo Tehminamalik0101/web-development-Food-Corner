@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+    <meta name="author" content="Tehmeena">
+    <meta name="description" content="Contact information for The Food Corner">
+    <titlte> Contact Us F-C</titlte>
+    <link rel="icon" href="Favicon" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Contact us</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="/#about">About <abbr title="food corner">FC</abbr></a>
+                    </li>
+                    <li>
+                        <a href="/#menu">Our Menu</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="hours.html">Store Hours</a>
+                        
+                    </li>
+                </ul>
+            </nav>
+            <figure>
+                <img src="Smashburger-2112.webp" alt="Smash Burger" title="We love burgers" width="400" height="350">
+            </figure>
+                    <figcaption>
+                       Burgers and a drink
+                    </figcaption>
+        </header>
+        <hr>
+        <main>
+            <!-our content-->
+        </main>
+        <hr>
+        <footer>
+            <p>Copy right &copy; Food Corner</p>
+        </footer>
+        
+    </body>
+</html>

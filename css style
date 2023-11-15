@@ -1,0 +1,30 @@
+<style>
+    html{
+        font-size:medium
+    }
+    body{
+        background-color: #333;
+        color: whitesmoke;
+    }
+
+    a{
+        color:beige;
+    }
+    a:visited{
+        color: lightgray;
+    }
+
+    a:hover, a:active{
+        color: #ccc;
+    }
+    table, tr, th,td,caption{
+        border:1px solid #eee;
+        font-family: 'courier New', Courier, monospace;
+        border-collapse: collapse;
+    }
+    figcaption{
+        text-align: right;
+    }
+        
+    }
+    </style>

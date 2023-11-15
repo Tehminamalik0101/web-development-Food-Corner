@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+    <meta name="author" content="Tehmeena">
+    <meta name="description" content="Store hours for the Food Corner">
+    <titlte>FC hours</titlte>
+    <link rel="icon" href="favicon.jpg" type="image/x-icon">
+    
+    </head>
+
+    <body>
+        <style>
+            html{
+                font-size:medium
+            }
+            body{
+                background-color: #333;
+                color: whitesmoke;
+            }
+        
+            a{
+                color:beige;
+            }
+            a:visited{
+                color: lightgray;
+            }
+        
+            a:hover, a:active{
+                color: #ccc;
+            }
+            table, tr, th,td,caption{
+                border:1px solid #eee;
+                font-family: 'courier New', Courier, monospace;
+                border-collapse: collapse;
+            }
+            
+            
+            
+            </style>
+
+        <header>
+            <h1>Food Corner hours</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="home">Home</a>
+                        
+                    </li>
+                    <li>
+                        <a href="about">About <abbr title="food corner">FC</abbr></a>
+    
+                    </li>
+                    <li>
+                        <a href="#menu">Our Menu</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact Us</a>
+                        <p>
+                            
+                        </p>
+                    </li>
+                    
+                </ul>
+            </nav>
+            <figure>
+                        <img src="Smashburger-2112.webp"   alt="Smash burger" 
+                 title="we love burgers" width="300" height="350">
+                 <figcaption>
+                    Smash Burger 
+                 </figcaption>
+                 </figure>
+
+                <br>
+
+            <figure>
+                <img src="crispy chicken burger.jpg"   alt="crispy chicken burger" title="We love burgers"
+                 width="250" height="300">
+            </figure>
+                    <figcaption>
+                       Crispy chicken burger 
+                    </figcaption>
+        </header>
+        <hr>
+        <main>
+            <p>
+                We are open 7 days a week!
+            </p>
+            <dl>
+                <dt>Sunday-Thursday</dt>
+                <dd>11am-9pm</dd>
+                <dt>Friday-Saturday</dt>
+                <dd>11am-11pmA</dd>
+            </dl>
+            <p>
+                <a href="#">Back to Top</a>
+            </p>
+            <article id="about">
+                <h2>About<abbr title="Food Corner"> FC</abbr></h2>
+                <p>
+                    <abbr title="Food Corner"> Food Corner</abbr>. was founded
+                     in <time datetime="2022">2022</time>.Our shop was built 
+                    from a <strong>love of burgers</strong> 🍔🍔.
+                     We hope our shop adds a unique and intresting place in our 
+                    little town.
+                </p>
+                <aside>
+                    <h3>Burgers Trivia</h3>
+                    <details>
+                        <summary>When did burgers first apper in Pakistan?</summary>
+                        <p>
+                            Mr Burger, Pakistan's first burger joint, 
+                            was created in 1980 when McDonald's and Burger 
+                            King deemed the nation not ready for burgers.
+                        
+                            <time datetime="1981">1981</time>.
+                        </p>
+                    </details>
+                     <hr>
+            <article id="menu">
+                <h2>Our Menu</h2>
+                <table>
+                    <caption>
+                        <strong>Our Burgers</strong>
+                        </caption>
+                    <thead>
+                        <tr>
+                            
+                            <th>Burgers</th>
+                            <th>Qty</th>
+                            <th>Price</th>
+                        </tr>
+                        
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" rowspan="3">
+                                Smash Burger
+                            </th>
+                            <td>1</td>
+                            <td>Rs.200</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Rs.400</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Rs.600</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" rowspan="3">
+                                Chicken burger
+                            </th>
+                            <td>1</td>
+                            <td>Rs.150</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Rs.300</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Rs.450</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">
+                                Chips & Drink Rs.200
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+                </aside>
+                </h2>
+            </article>
+           
+                <br>
+                <p>
+                    <a href="#">Back to Top</a>
+                </p>
+                </article>
+        </main>
+        <hr>
+        <main>
+            <section>
+        <h3>Our contact form</h3>
+        <form action="http//httpbin.org/get" method="get">
+            <fieldset>
+                <legend>Send us a Message</legend>
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name"
+                     placeholder="Your name" required>
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" id="email"
+                     placeholder="Your email" required>
+                </p>
+                <p>
+                    <label for="message">Type your message:</label>
+                    <br>
+                    <textarea name="message" id="message" cols="30" rows="10"
+                    placeholder="Type your message here:"></textarea>
+                </p>
+                <button type="submit">Send</button>
+            <button type="reset">Reset</button>
+
+                
+            </fieldset>
+            
+        </form>
+    </section>
+    <section>
+        <h2>Our Location</h2>
+        <address>
+            555 Food Corner Saddar; Rawalpindi
+            <br><br>
+            Phone:<a href="tel:+923215550987">+92321-555-0987</a>
+        </address>
+    </section>
+    </main>
+        <footer>
+            <p>Copy right &copy; Food Corner</p>
+        </footer>
+        
+    </body>
+</html> 
